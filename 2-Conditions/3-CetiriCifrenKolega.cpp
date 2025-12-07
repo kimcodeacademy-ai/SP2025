@@ -10,11 +10,29 @@
 
 
 For example:
-Input 5500
-Result 20.0000%
+Input: 5500
+Result: 20.0000%
 
+5500
+20.0000%
+
+1255
+0.8765%
+
+5555
+20.0000%
+
+1234
+Error
+
+6655
+0.1653%
+
+0155
+7.0968%
  */
 
+#include <iomanip>
 #include "iostream"
 using namespace std;
 int main(){
@@ -41,7 +59,7 @@ int main(){
     }
 
     if(brojac < 2){
-        cout<<"Brojot nema dovolno 5ki!!"<<endl;
+        cout<<"Error"<<endl;
     } else{
         if(cifra1 == 5){
             brojKolega += 6 * 1000;
@@ -63,16 +81,16 @@ int main(){
         } else{
             brojKolega += cifra4;
         }
-        cout<<"Broj: "<<n<<" Broj kolega: "<<brojKolega<<endl;
 
         float razlikaProcenti;
 
         if(n > brojKolega){
             razlikaProcenti = ((float)n - brojKolega) / brojKolega;
-            cout<<"Razlika vo procenti: "<<razlikaProcenti<<endl;
+            ///setprecision(n) -> sets how many digits are shown, fixed -> changes that behavior so setprecision(n) means digits after the decimal point
+            cout<<fixed << setprecision(4) <<razlikaProcenti*100<<"%"<<endl;
         } else{
             razlikaProcenti = ((float)brojKolega - n) / n;
-            cout<<"Razlika vo procenti: "<<razlikaProcenti*100<<"%"<<endl;
+            cout<<fixed << setprecision(4) <<razlikaProcenti*100<<"%"<<endl;
         }
 
     }

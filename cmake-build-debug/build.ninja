@@ -74,72 +74,6 @@ build SP2025.exe: CXX_EXECUTABLE_LINKER__SP2025_Debug CMakeFiles/SP2025.dir/main
   TARGET_PDB = SP2025.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target conditions
-
-
-#############################################
-# Order-only phony target for conditions
-
-build cmake_object_order_depends_target_conditions: phony || CMakeFiles/conditions.dir
-
-build CMakeFiles/conditions.dir/Zadaci1/conditions.cpp.obj: CXX_COMPILER__conditions_Debug C$:/Users/jakim/CLionProjects/SP2025/Zadaci1/conditions.cpp || cmake_object_order_depends_target_conditions
-  DEP_FILE = CMakeFiles\conditions.dir\Zadaci1\conditions.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\conditions.dir
-  OBJECT_FILE_DIR = CMakeFiles\conditions.dir\Zadaci1
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target conditions
-
-
-#############################################
-# Link the executable conditions.exe
-
-build conditions.exe: CXX_EXECUTABLE_LINKER__conditions_Debug CMakeFiles/conditions.dir/Zadaci1/conditions.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\conditions.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = conditions.exe
-  TARGET_IMPLIB = libconditions.dll.a
-  TARGET_PDB = conditions.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target loops
-
-
-#############################################
-# Order-only phony target for loops
-
-build cmake_object_order_depends_target_loops: phony || CMakeFiles/loops.dir
-
-build CMakeFiles/loops.dir/Zadaci1/loops.cpp.obj: CXX_COMPILER__loops_Debug C$:/Users/jakim/CLionProjects/SP2025/Zadaci1/loops.cpp || cmake_object_order_depends_target_loops
-  DEP_FILE = CMakeFiles\loops.dir\Zadaci1\loops.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\loops.dir
-  OBJECT_FILE_DIR = CMakeFiles\loops.dir\Zadaci1
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target loops
-
-
-#############################################
-# Link the executable loops.exe
-
-build loops.exe: CXX_EXECUTABLE_LINKER__loops_Debug CMakeFiles/loops.dir/Zadaci1/loops.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\loops.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = loops.exe
-  TARGET_IMPLIB = libloops.dll.a
-  TARGET_PDB = loops.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target SedumCifrenBroj
 
 
@@ -404,6 +338,39 @@ build validenDatum.exe: CXX_EXECUTABLE_LINKER__validenDatum_Debug CMakeFiles/val
   TARGET_PDB = validenDatum.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target validenDatum1
+
+
+#############################################
+# Order-only phony target for validenDatum1
+
+build cmake_object_order_depends_target_validenDatum1: phony || CMakeFiles/validenDatum1.dir
+
+build CMakeFiles/validenDatum1.dir/2-Conditions/8.1-ValidenDatum.cpp.obj: CXX_COMPILER__validenDatum1_Debug C$:/Users/jakim/CLionProjects/SP2025/2-Conditions/8.1-ValidenDatum.cpp || cmake_object_order_depends_target_validenDatum1
+  DEP_FILE = CMakeFiles\validenDatum1.dir\2-Conditions\8.1-ValidenDatum.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\validenDatum1.dir
+  OBJECT_FILE_DIR = CMakeFiles\validenDatum1.dir\2-Conditions
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target validenDatum1
+
+
+#############################################
+# Link the executable validenDatum1.exe
+
+build validenDatum1.exe: CXX_EXECUTABLE_LINKER__validenDatum1_Debug CMakeFiles/validenDatum1.dir/2-Conditions/8.1-ValidenDatum.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\validenDatum1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = validenDatum1.exe
+  TARGET_IMPLIB = libvalidenDatum1.dll.a
+  TARGET_PDB = validenDatum1.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target potrosenaStruja
 
 
@@ -569,6 +536,204 @@ build starsInfinitySign.exe: CXX_EXECUTABLE_LINKER__starsInfinitySign_Debug CMak
   TARGET_PDB = starsInfinitySign.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target broeviVoInterval
+
+
+#############################################
+# Order-only phony target for broeviVoInterval
+
+build cmake_object_order_depends_target_broeviVoInterval: phony || CMakeFiles/broeviVoInterval.dir
+
+build CMakeFiles/broeviVoInterval.dir/3-Loops/2-BroeviVoInterval.cpp.obj: CXX_COMPILER__broeviVoInterval_Debug C$:/Users/jakim/CLionProjects/SP2025/3-Loops/2-BroeviVoInterval.cpp || cmake_object_order_depends_target_broeviVoInterval
+  DEP_FILE = CMakeFiles\broeviVoInterval.dir\3-Loops\2-BroeviVoInterval.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\broeviVoInterval.dir
+  OBJECT_FILE_DIR = CMakeFiles\broeviVoInterval.dir\3-Loops
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target broeviVoInterval
+
+
+#############################################
+# Link the executable broeviVoInterval.exe
+
+build broeviVoInterval.exe: CXX_EXECUTABLE_LINKER__broeviVoInterval_Debug CMakeFiles/broeviVoInterval.dir/3-Loops/2-BroeviVoInterval.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\broeviVoInterval.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = broeviVoInterval.exe
+  TARGET_IMPLIB = libbroeviVoInterval.dll.a
+  TARGET_PDB = broeviVoInterval.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target zbirCifri
+
+
+#############################################
+# Order-only phony target for zbirCifri
+
+build cmake_object_order_depends_target_zbirCifri: phony || CMakeFiles/zbirCifri.dir
+
+build CMakeFiles/zbirCifri.dir/3-Loops/3-ZbirCifri.cpp.obj: CXX_COMPILER__zbirCifri_Debug C$:/Users/jakim/CLionProjects/SP2025/3-Loops/3-ZbirCifri.cpp || cmake_object_order_depends_target_zbirCifri
+  DEP_FILE = CMakeFiles\zbirCifri.dir\3-Loops\3-ZbirCifri.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\zbirCifri.dir
+  OBJECT_FILE_DIR = CMakeFiles\zbirCifri.dir\3-Loops
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zbirCifri
+
+
+#############################################
+# Link the executable zbirCifri.exe
+
+build zbirCifri.exe: CXX_EXECUTABLE_LINKER__zbirCifri_Debug CMakeFiles/zbirCifri.dir/3-Loops/3-ZbirCifri.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\zbirCifri.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = zbirCifri.exe
+  TARGET_IMPLIB = libzbirCifri.dll.a
+  TARGET_PDB = zbirCifri.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target deliviBroeviInterval
+
+
+#############################################
+# Order-only phony target for deliviBroeviInterval
+
+build cmake_object_order_depends_target_deliviBroeviInterval: phony || CMakeFiles/deliviBroeviInterval.dir
+
+build CMakeFiles/deliviBroeviInterval.dir/3-Loops/4-DeliviBroeviInterval.cpp.obj: CXX_COMPILER__deliviBroeviInterval_Debug C$:/Users/jakim/CLionProjects/SP2025/3-Loops/4-DeliviBroeviInterval.cpp || cmake_object_order_depends_target_deliviBroeviInterval
+  DEP_FILE = CMakeFiles\deliviBroeviInterval.dir\3-Loops\4-DeliviBroeviInterval.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\deliviBroeviInterval.dir
+  OBJECT_FILE_DIR = CMakeFiles\deliviBroeviInterval.dir\3-Loops
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target deliviBroeviInterval
+
+
+#############################################
+# Link the executable deliviBroeviInterval.exe
+
+build deliviBroeviInterval.exe: CXX_EXECUTABLE_LINKER__deliviBroeviInterval_Debug CMakeFiles/deliviBroeviInterval.dir/3-Loops/4-DeliviBroeviInterval.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\deliviBroeviInterval.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = deliviBroeviInterval.exe
+  TARGET_IMPLIB = libdeliviBroeviInterval.dll.a
+  TARGET_PDB = deliviBroeviInterval.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target fiskalnaSmetka1
+
+
+#############################################
+# Order-only phony target for fiskalnaSmetka1
+
+build cmake_object_order_depends_target_fiskalnaSmetka1: phony || CMakeFiles/fiskalnaSmetka1.dir
+
+build CMakeFiles/fiskalnaSmetka1.dir/3-Loops/5-FiskalnaSmetka.cpp.obj: CXX_COMPILER__fiskalnaSmetka1_Debug C$:/Users/jakim/CLionProjects/SP2025/3-Loops/5-FiskalnaSmetka.cpp || cmake_object_order_depends_target_fiskalnaSmetka1
+  DEP_FILE = CMakeFiles\fiskalnaSmetka1.dir\3-Loops\5-FiskalnaSmetka.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\fiskalnaSmetka1.dir
+  OBJECT_FILE_DIR = CMakeFiles\fiskalnaSmetka1.dir\3-Loops
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fiskalnaSmetka1
+
+
+#############################################
+# Link the executable fiskalnaSmetka1.exe
+
+build fiskalnaSmetka1.exe: CXX_EXECUTABLE_LINKER__fiskalnaSmetka1_Debug CMakeFiles/fiskalnaSmetka1.dir/3-Loops/5-FiskalnaSmetka.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\fiskalnaSmetka1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = fiskalnaSmetka1.exe
+  TARGET_IMPLIB = libfiskalnaSmetka1.dll.a
+  TARGET_PDB = fiskalnaSmetka1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target fiskalnaSmetka2
+
+
+#############################################
+# Order-only phony target for fiskalnaSmetka2
+
+build cmake_object_order_depends_target_fiskalnaSmetka2: phony || CMakeFiles/fiskalnaSmetka2.dir
+
+build CMakeFiles/fiskalnaSmetka2.dir/3-Loops/6-FiskalnaSmetka2.cpp.obj: CXX_COMPILER__fiskalnaSmetka2_Debug C$:/Users/jakim/CLionProjects/SP2025/3-Loops/6-FiskalnaSmetka2.cpp || cmake_object_order_depends_target_fiskalnaSmetka2
+  DEP_FILE = CMakeFiles\fiskalnaSmetka2.dir\3-Loops\6-FiskalnaSmetka2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\fiskalnaSmetka2.dir
+  OBJECT_FILE_DIR = CMakeFiles\fiskalnaSmetka2.dir\3-Loops
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fiskalnaSmetka2
+
+
+#############################################
+# Link the executable fiskalnaSmetka2.exe
+
+build fiskalnaSmetka2.exe: CXX_EXECUTABLE_LINKER__fiskalnaSmetka2_Debug CMakeFiles/fiskalnaSmetka2.dir/3-Loops/6-FiskalnaSmetka2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\fiskalnaSmetka2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = fiskalnaSmetka2.exe
+  TARGET_IMPLIB = libfiskalnaSmetka2.dll.a
+  TARGET_PDB = fiskalnaSmetka2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target najgolemaRazlika
+
+
+#############################################
+# Order-only phony target for najgolemaRazlika
+
+build cmake_object_order_depends_target_najgolemaRazlika: phony || CMakeFiles/najgolemaRazlika.dir
+
+build CMakeFiles/najgolemaRazlika.dir/3-Loops/7-NajgolemaRazlika.cpp.obj: CXX_COMPILER__najgolemaRazlika_Debug C$:/Users/jakim/CLionProjects/SP2025/3-Loops/7-NajgolemaRazlika.cpp || cmake_object_order_depends_target_najgolemaRazlika
+  DEP_FILE = CMakeFiles\najgolemaRazlika.dir\3-Loops\7-NajgolemaRazlika.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\najgolemaRazlika.dir
+  OBJECT_FILE_DIR = CMakeFiles\najgolemaRazlika.dir\3-Loops
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target najgolemaRazlika
+
+
+#############################################
+# Link the executable najgolemaRazlika.exe
+
+build najgolemaRazlika.exe: CXX_EXECUTABLE_LINKER__najgolemaRazlika_Debug CMakeFiles/najgolemaRazlika.dir/3-Loops/7-NajgolemaRazlika.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\najgolemaRazlika.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = najgolemaRazlika.exe
+  TARGET_IMPLIB = libnajgolemaRazlika.dll.a
+  TARGET_PDB = najgolemaRazlika.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target starsSquareAndDiagonal
 
 
@@ -601,6 +766,270 @@ build starsSquareAndDiagonal.exe: CXX_EXECUTABLE_LINKER__starsSquareAndDiagonal_
   TARGET_IMPLIB = libstarsSquareAndDiagonal.dll.a
   TARGET_PDB = starsSquareAndDiagonal.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target starsHourGlass
+
+
+#############################################
+# Order-only phony target for starsHourGlass
+
+build cmake_object_order_depends_target_starsHourGlass: phony || CMakeFiles/starsHourGlass.dir
+
+build CMakeFiles/starsHourGlass.dir/3-Loops/9-StarsHourGlass.cpp.obj: CXX_COMPILER__starsHourGlass_Debug C$:/Users/jakim/CLionProjects/SP2025/3-Loops/9-StarsHourGlass.cpp || cmake_object_order_depends_target_starsHourGlass
+  DEP_FILE = CMakeFiles\starsHourGlass.dir\3-Loops\9-StarsHourGlass.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\starsHourGlass.dir
+  OBJECT_FILE_DIR = CMakeFiles\starsHourGlass.dir\3-Loops
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target starsHourGlass
+
+
+#############################################
+# Link the executable starsHourGlass.exe
+
+build starsHourGlass.exe: CXX_EXECUTABLE_LINKER__starsHourGlass_Debug CMakeFiles/starsHourGlass.dir/3-Loops/9-StarsHourGlass.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\starsHourGlass.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = starsHourGlass.exe
+  TARGET_IMPLIB = libstarsHourGlass.dll.a
+  TARGET_PDB = starsHourGlass.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target starsFullLeftBottomTriangle
+
+
+#############################################
+# Order-only phony target for starsFullLeftBottomTriangle
+
+build cmake_object_order_depends_target_starsFullLeftBottomTriangle: phony || CMakeFiles/starsFullLeftBottomTriangle.dir
+
+build CMakeFiles/starsFullLeftBottomTriangle.dir/3-Loops/10-StarsFullLeftBottomTriangle.cpp.obj: CXX_COMPILER__starsFullLeftBottomTriangle_Debug C$:/Users/jakim/CLionProjects/SP2025/3-Loops/10-StarsFullLeftBottomTriangle.cpp || cmake_object_order_depends_target_starsFullLeftBottomTriangle
+  DEP_FILE = CMakeFiles\starsFullLeftBottomTriangle.dir\3-Loops\10-StarsFullLeftBottomTriangle.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\starsFullLeftBottomTriangle.dir
+  OBJECT_FILE_DIR = CMakeFiles\starsFullLeftBottomTriangle.dir\3-Loops
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target starsFullLeftBottomTriangle
+
+
+#############################################
+# Link the executable starsFullLeftBottomTriangle.exe
+
+build starsFullLeftBottomTriangle.exe: CXX_EXECUTABLE_LINKER__starsFullLeftBottomTriangle_Debug CMakeFiles/starsFullLeftBottomTriangle.dir/3-Loops/10-StarsFullLeftBottomTriangle.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\starsFullLeftBottomTriangle.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = starsFullLeftBottomTriangle.exe
+  TARGET_IMPLIB = libstarsFullLeftBottomTriangle.dll.a
+  TARGET_PDB = starsFullLeftBottomTriangle.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target starsHollowLeftBottomTriangle
+
+
+#############################################
+# Order-only phony target for starsHollowLeftBottomTriangle
+
+build cmake_object_order_depends_target_starsHollowLeftBottomTriangle: phony || CMakeFiles/starsHollowLeftBottomTriangle.dir
+
+build CMakeFiles/starsHollowLeftBottomTriangle.dir/3-Loops/11-StarsHollowLeftBottomTriangle.cpp.obj: CXX_COMPILER__starsHollowLeftBottomTriangle_Debug C$:/Users/jakim/CLionProjects/SP2025/3-Loops/11-StarsHollowLeftBottomTriangle.cpp || cmake_object_order_depends_target_starsHollowLeftBottomTriangle
+  DEP_FILE = CMakeFiles\starsHollowLeftBottomTriangle.dir\3-Loops\11-StarsHollowLeftBottomTriangle.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\starsHollowLeftBottomTriangle.dir
+  OBJECT_FILE_DIR = CMakeFiles\starsHollowLeftBottomTriangle.dir\3-Loops
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target starsHollowLeftBottomTriangle
+
+
+#############################################
+# Link the executable starsHollowLeftBottomTriangle.exe
+
+build starsHollowLeftBottomTriangle.exe: CXX_EXECUTABLE_LINKER__starsHollowLeftBottomTriangle_Debug CMakeFiles/starsHollowLeftBottomTriangle.dir/3-Loops/11-StarsHollowLeftBottomTriangle.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\starsHollowLeftBottomTriangle.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = starsHollowLeftBottomTriangle.exe
+  TARGET_IMPLIB = libstarsHollowLeftBottomTriangle.dll.a
+  TARGET_PDB = starsHollowLeftBottomTriangle.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target starsFullTopLeftTriangle
+
+
+#############################################
+# Order-only phony target for starsFullTopLeftTriangle
+
+build cmake_object_order_depends_target_starsFullTopLeftTriangle: phony || CMakeFiles/starsFullTopLeftTriangle.dir
+
+build CMakeFiles/starsFullTopLeftTriangle.dir/3-Loops/12-StarsFullTopLeftTriangle.cpp.obj: CXX_COMPILER__starsFullTopLeftTriangle_Debug C$:/Users/jakim/CLionProjects/SP2025/3-Loops/12-StarsFullTopLeftTriangle.cpp || cmake_object_order_depends_target_starsFullTopLeftTriangle
+  DEP_FILE = CMakeFiles\starsFullTopLeftTriangle.dir\3-Loops\12-StarsFullTopLeftTriangle.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\starsFullTopLeftTriangle.dir
+  OBJECT_FILE_DIR = CMakeFiles\starsFullTopLeftTriangle.dir\3-Loops
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target starsFullTopLeftTriangle
+
+
+#############################################
+# Link the executable starsFullTopLeftTriangle.exe
+
+build starsFullTopLeftTriangle.exe: CXX_EXECUTABLE_LINKER__starsFullTopLeftTriangle_Debug CMakeFiles/starsFullTopLeftTriangle.dir/3-Loops/12-StarsFullTopLeftTriangle.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\starsFullTopLeftTriangle.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = starsFullTopLeftTriangle.exe
+  TARGET_IMPLIB = libstarsFullTopLeftTriangle.dll.a
+  TARGET_PDB = starsFullTopLeftTriangle.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target starsHollowTopLeftTriangle
+
+
+#############################################
+# Order-only phony target for starsHollowTopLeftTriangle
+
+build cmake_object_order_depends_target_starsHollowTopLeftTriangle: phony || CMakeFiles/starsHollowTopLeftTriangle.dir
+
+build CMakeFiles/starsHollowTopLeftTriangle.dir/3-Loops/13-StarsHollowTopLeftTriangle.cpp.obj: CXX_COMPILER__starsHollowTopLeftTriangle_Debug C$:/Users/jakim/CLionProjects/SP2025/3-Loops/13-StarsHollowTopLeftTriangle.cpp || cmake_object_order_depends_target_starsHollowTopLeftTriangle
+  DEP_FILE = CMakeFiles\starsHollowTopLeftTriangle.dir\3-Loops\13-StarsHollowTopLeftTriangle.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\starsHollowTopLeftTriangle.dir
+  OBJECT_FILE_DIR = CMakeFiles\starsHollowTopLeftTriangle.dir\3-Loops
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target starsHollowTopLeftTriangle
+
+
+#############################################
+# Link the executable starsHollowTopLeftTriangle.exe
+
+build starsHollowTopLeftTriangle.exe: CXX_EXECUTABLE_LINKER__starsHollowTopLeftTriangle_Debug CMakeFiles/starsHollowTopLeftTriangle.dir/3-Loops/13-StarsHollowTopLeftTriangle.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\starsHollowTopLeftTriangle.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = starsHollowTopLeftTriangle.exe
+  TARGET_IMPLIB = libstarsHollowTopLeftTriangle.dll.a
+  TARGET_PDB = starsHollowTopLeftTriangle.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target starsFullBottomRightTriangle
+
+
+#############################################
+# Order-only phony target for starsFullBottomRightTriangle
+
+build cmake_object_order_depends_target_starsFullBottomRightTriangle: phony || CMakeFiles/starsFullBottomRightTriangle.dir
+
+build CMakeFiles/starsFullBottomRightTriangle.dir/3-Loops/14-StarsFullBottomRIghtTriangle.cpp.obj: CXX_COMPILER__starsFullBottomRightTriangle_Debug C$:/Users/jakim/CLionProjects/SP2025/3-Loops/14-StarsFullBottomRIghtTriangle.cpp || cmake_object_order_depends_target_starsFullBottomRightTriangle
+  DEP_FILE = CMakeFiles\starsFullBottomRightTriangle.dir\3-Loops\14-StarsFullBottomRIghtTriangle.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\starsFullBottomRightTriangle.dir
+  OBJECT_FILE_DIR = CMakeFiles\starsFullBottomRightTriangle.dir\3-Loops
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target starsFullBottomRightTriangle
+
+
+#############################################
+# Link the executable starsFullBottomRightTriangle.exe
+
+build starsFullBottomRightTriangle.exe: CXX_EXECUTABLE_LINKER__starsFullBottomRightTriangle_Debug CMakeFiles/starsFullBottomRightTriangle.dir/3-Loops/14-StarsFullBottomRIghtTriangle.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\starsFullBottomRightTriangle.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = starsFullBottomRightTriangle.exe
+  TARGET_IMPLIB = libstarsFullBottomRightTriangle.dll.a
+  TARGET_PDB = starsFullBottomRightTriangle.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target starsHollowBottomRightTriangle
+
+
+#############################################
+# Order-only phony target for starsHollowBottomRightTriangle
+
+build cmake_object_order_depends_target_starsHollowBottomRightTriangle: phony || CMakeFiles/starsHollowBottomRightTriangle.dir
+
+build CMakeFiles/starsHollowBottomRightTriangle.dir/3-Loops/15-StarsHollowBottomRightTriangle.cpp.obj: CXX_COMPILER__starsHollowBottomRightTriangle_Debug C$:/Users/jakim/CLionProjects/SP2025/3-Loops/15-StarsHollowBottomRightTriangle.cpp || cmake_object_order_depends_target_starsHollowBottomRightTriangle
+  DEP_FILE = CMakeFiles\starsHollowBottomRightTriangle.dir\3-Loops\15-StarsHollowBottomRightTriangle.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\starsHollowBottomRightTriangle.dir
+  OBJECT_FILE_DIR = CMakeFiles\starsHollowBottomRightTriangle.dir\3-Loops
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target starsHollowBottomRightTriangle
+
+
+#############################################
+# Link the executable starsHollowBottomRightTriangle.exe
+
+build starsHollowBottomRightTriangle.exe: CXX_EXECUTABLE_LINKER__starsHollowBottomRightTriangle_Debug CMakeFiles/starsHollowBottomRightTriangle.dir/3-Loops/15-StarsHollowBottomRightTriangle.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\starsHollowBottomRightTriangle.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = starsHollowBottomRightTriangle.exe
+  TARGET_IMPLIB = libstarsHollowBottomRightTriangle.dll.a
+  TARGET_PDB = starsHollowBottomRightTriangle.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target zbirSlikaBroj
+
+
+#############################################
+# Order-only phony target for zbirSlikaBroj
+
+build cmake_object_order_depends_target_zbirSlikaBroj: phony || CMakeFiles/zbirSlikaBroj.dir
+
+build CMakeFiles/zbirSlikaBroj.dir/3-Loops/16-ZbirSlikaBroj.cpp.obj: CXX_COMPILER__zbirSlikaBroj_Debug C$:/Users/jakim/CLionProjects/SP2025/3-Loops/16-ZbirSlikaBroj.cpp || cmake_object_order_depends_target_zbirSlikaBroj
+  DEP_FILE = CMakeFiles\zbirSlikaBroj.dir\3-Loops\16-ZbirSlikaBroj.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\zbirSlikaBroj.dir
+  OBJECT_FILE_DIR = CMakeFiles\zbirSlikaBroj.dir\3-Loops
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zbirSlikaBroj
+
+
+#############################################
+# Link the executable zbirSlikaBroj.exe
+
+build zbirSlikaBroj.exe: CXX_EXECUTABLE_LINKER__zbirSlikaBroj_Debug CMakeFiles/zbirSlikaBroj.dir/3-Loops/16-ZbirSlikaBroj.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\zbirSlikaBroj.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = zbirSlikaBroj.exe
+  TARGET_IMPLIB = libzbirSlikaBroj.dll.a
+  TARGET_PDB = zbirSlikaBroj.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -631,17 +1060,23 @@ build SP2025: phony SP2025.exe
 
 build SedumCifrenBroj: phony SedumCifrenBroj.exe
 
+build broeviVoInterval: phony broeviVoInterval.exe
+
 build brojTelefon: phony brojTelefon.exe
 
 build cetiriCifrenKolega: phony cetiriCifrenKolega.exe
 
-build conditions: phony conditions.exe
+build deliviBroeviInterval: phony deliviBroeviInterval.exe
+
+build fiskalnaSmetka1: phony fiskalnaSmetka1.exe
+
+build fiskalnaSmetka2: phony fiskalnaSmetka2.exe
 
 build kreirajKorisnickaSmetka: phony kreirajKorisnickaSmetka.exe
 
-build loops: phony loops.exe
-
 build najdolgaOtsecka: phony najdolgaOtsecka.exe
+
+build najgolemaRazlika: phony najgolemaRazlika.exe
 
 build palindromPetCifrenBroj: phony palindromPetCifrenBroj.exe
 
@@ -653,6 +1088,20 @@ build quadraticEquation: phony quadraticEquation.exe
 
 build specijalenBroj: phony specijalenBroj.exe
 
+build starsFullBottomRightTriangle: phony starsFullBottomRightTriangle.exe
+
+build starsFullLeftBottomTriangle: phony starsFullLeftBottomTriangle.exe
+
+build starsFullTopLeftTriangle: phony starsFullTopLeftTriangle.exe
+
+build starsHollowBottomRightTriangle: phony starsHollowBottomRightTriangle.exe
+
+build starsHollowLeftBottomTriangle: phony starsHollowLeftBottomTriangle.exe
+
+build starsHollowTopLeftTriangle: phony starsHollowTopLeftTriangle.exe
+
+build starsHourGlass: phony starsHourGlass.exe
+
 build starsInfinitySign: phony starsInfinitySign.exe
 
 build starsSquareAndDiagonal: phony starsSquareAndDiagonal.exe
@@ -660,6 +1109,12 @@ build starsSquareAndDiagonal: phony starsSquareAndDiagonal.exe
 build tikTakBroj: phony tikTakBroj.exe
 
 build validenDatum: phony validenDatum.exe
+
+build validenDatum1: phony validenDatum1.exe
+
+build zbirCifri: phony zbirCifri.exe
+
+build zbirSlikaBroj: phony zbirSlikaBroj.exe
 
 # =============================================================================
 # Folder targets.
@@ -669,7 +1124,7 @@ build validenDatum: phony validenDatum.exe
 #############################################
 # Folder: C:/Users/jakim/CLionProjects/SP2025/cmake-build-debug
 
-build all: phony SP2025.exe conditions.exe loops.exe SedumCifrenBroj.exe quadraticEquation.exe cetiriCifrenKolega.exe kreirajKorisnickaSmetka.exe najdolgaOtsecka.exe palindromPetCifrenBroj.exe poeniOcenka.exe validenDatum.exe potrosenaStruja.exe specijalenBroj.exe brojTelefon.exe tikTakBroj.exe starsInfinitySign.exe starsSquareAndDiagonal.exe
+build all: phony SP2025.exe SedumCifrenBroj.exe quadraticEquation.exe cetiriCifrenKolega.exe kreirajKorisnickaSmetka.exe najdolgaOtsecka.exe palindromPetCifrenBroj.exe poeniOcenka.exe validenDatum.exe validenDatum1.exe potrosenaStruja.exe specijalenBroj.exe brojTelefon.exe tikTakBroj.exe starsInfinitySign.exe broeviVoInterval.exe zbirCifri.exe deliviBroeviInterval.exe fiskalnaSmetka1.exe fiskalnaSmetka2.exe najgolemaRazlika.exe starsSquareAndDiagonal.exe starsHourGlass.exe starsFullLeftBottomTriangle.exe starsHollowLeftBottomTriangle.exe starsFullTopLeftTriangle.exe starsHollowTopLeftTriangle.exe starsFullBottomRightTriangle.exe starsHollowBottomRightTriangle.exe zbirSlikaBroj.exe
 
 # =============================================================================
 # Built-in targets

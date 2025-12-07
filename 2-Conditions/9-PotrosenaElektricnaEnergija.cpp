@@ -8,9 +8,63 @@
 На крајот на сметката се додава 10% ДДВ доколку изнесува 7000 денари или помалку, додека ако
 изнесува повеќе од тоа, се додава 18% ДДВ.
 For example:
-Input 1000
-Result
+Input: 1000
+Result: 9263.00
+
+Test cases:
+1000
 9263.00
+
+18000
+280073.00
+
+849
+6395.40
+
+721
+4846.60
+
+1200
+12449.00
+
+500
+2750.00
+
+666
+4181.10
+
+432
+2376.00
 
  */
 //
+#include<iostream>
+#include<cstdio>
+using namespace std;
+
+int main() {
+    int kw;
+    float cena;
+    cin >> kw;
+    if (kw <= 650) {
+        cena = 500 * 5 + (kw - 500) * 7.5;
+    }
+    if (kw <= 850) {
+        cena = 500 * 5.0 + 150 * 7.5 + (kw - 650) * 11;
+    }
+    if (kw > 850) {
+        cena = 500 * 5.0 + 150 * 7.5 + 200 * 11.0 + (kw - 850) * 13.5;
+    }
+    if (kw <= 500) {
+        cena = kw * 5;
+    }
+    if (cena <= 7000) {
+        cena = cena * 1.1;
+    } else {
+        cena = cena * 1.18;
+    }
+//    cout<<cena<<endl;
+    /// alternativna funkcija za printanje namesto cout
+    printf("%.2f", cena);
+
+}

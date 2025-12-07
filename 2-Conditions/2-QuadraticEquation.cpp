@@ -11,11 +11,32 @@
  "Reshenija na ravenkata se: " и да се наведат решенијата одвоени со сврзникот "i" .
 Доколку равенката има едно решение потребно е да се испечати: "Dvojno reshenie na ravenkata e: " и да се наведе решението.
 Доколку равенката нема решение потребно е да се испечати: "Ravenkata nema realni reshenija".
-For example:
-Input 1 2 1
-Result
 
+For example:
+Input: 1 2 1
+Result: Dvojno reshenie na ravenkata e: -1.00
+
+1 2 1
 Dvojno reshenie na ravenkata e: -1.00
+
+1 4 4
+Dvojno reshenie na ravenkata e: -2.00
+
+-1 4 -7
+Ravenkata nema realni reshenija
+
+1 -5 6
+Reshenija na ravenkata se: 2.00 i 3.00
+
+2 3 2
+Ravenkata nema realni reshenija
+
+2 -14 -13
+Reshenija na ravenkata se: -0.83 i 7.83
+
+2 5 0
+Reshenija na ravenkata se: -2.50 i 0.00
+
 
  */
 //

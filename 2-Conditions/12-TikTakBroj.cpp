@@ -6,9 +6,34 @@
 Доколку бројот не е делив со 3 ни со 5, тогаш да се испечати "Losh Broj".
 (Без наводници, ставени се за читливост)
 For example:
-Input 3
-Result
+Input: 3
+Result: Tik
+
+Test cases:
+3
 Tik
+
+5
+Tak
+
+20
+Tak
+
+111
+Tik
+
+11
+Losh Broj
+
+15
+Tik - Tak
+
+150
+Tik - Tak
+
+151
+Losh Broj
+
  */
 //
 #include "iostream"

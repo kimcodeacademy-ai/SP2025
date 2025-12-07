@@ -14,22 +14,35 @@
 8-0 = "+"
 For example:
 Input: 101
-Result
-Nevalidna vrednost za poeni!
+Result: Nevalidna vrednost za poeni!
 
-Input: 68
-Result
-Ocenka 7+
+Test cases:
+79
+Ocenka 8+
 
+85
+Ocenka 9
 
-Input: 92
-Result
+75
+Ocenka 8
+
+91
 Ocenka 10-
 
+99
+Ocenka 10+
 
-Input: 56
-Result
-Ocenka 6
+66
+Ocenka 7
+
+51
+Ocenka 6-
+
+49
+Ocenka 5
+
+-34
+Nevalidna vrednost za poeni!
  */
 //
 #include "iostream"

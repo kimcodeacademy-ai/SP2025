@@ -11,8 +11,39 @@ Result
 Palindrom
 
 Input: 55545
-Result
+Result: Ne e palindrom
+
+Test cases:
+44444
+Palindrom
+
+84848
+Palindrom
+
+78887
+Palindrom
+
+6
+Nevaliden vlez
+
+54321
 Ne e palindrom
+
+27212
+Ne e palindrom
+
+1000
+Nevaliden vlez
+
+113920
+Nevaliden vlez
+
+30
+Nevaliden vlez
+
+72327
+Palindrom
+
  */
 //
 #include "iostream"

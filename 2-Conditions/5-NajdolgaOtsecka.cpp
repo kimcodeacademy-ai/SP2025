@@ -5,12 +5,42 @@
 секој во нов ред, како во пример внесот. Се смета дека координатите се за точките A, B, C соодветно.
 Програмата го печати името на најдолгата отсечка, како во примерот. Се смета дека секогаш има една таква отсечка.
 For example:
-Input
+Input:
 -5 2
 -8 -9
 0 0
-Result
+Result: BC
+
+Test cases:
+-5 2
+-8 -9
+0 0
 BC
+
+-8 1
+0 0
+1 2
+AC
+
+0 0
+-7 -7
+12 12
+BC
+
+9 3
+0 0
+-1 -1
+AC
+
+0 0
+-1 -1
+2 2
+BC
+
+0 0
+7 8
+1 2
+AB
  */
 //
 #include "iostream"
@@ -27,10 +57,10 @@ int main(){
     ac = abs(x1 - x3) + abs(y1 - y3);
 
     if(ab >= bc && ab >= ac){
-        cout<<"AB e najgolema otsecka."<<endl;
+        cout<<"AB"<<endl;
     } else if(bc >= ab && bc >= ac){
-        cout<<"BC e najgolema otsecka."<<endl;
+        cout<<"BC"<<endl;
     }else{
-        cout<<"AC e najgolema otsecka."<<endl;
+        cout<<"AC"<<endl;
     }
 }
