@@ -44,7 +44,21 @@
 						26,
 						27,
 						28,
-						29
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43
 					]
 				}
 			],
@@ -88,7 +102,21 @@
 						26,
 						27,
 						28,
-						29
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43
 					]
 				}
 			],
@@ -106,6 +134,20 @@
 					"id" : "SedumCifrenBroj::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-SedumCifrenBroj-Debug-b8685b7dc84ab7613772.json",
 					"name" : "SedumCifrenBroj",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apsolutnaVrednost::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apsolutnaVrednost-Debug-98f509a383594d9fa2fe.json",
+					"name" : "apsolutnaVrednost",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bingo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bingo-Debug-3d66349fa7142ccba04e.json",
+					"name" : "bingo",
 					"projectIndex" : 0
 				},
 				{
@@ -131,9 +173,30 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "cifriVoVtorBroj::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cifriVoVtorBroj-Debug-252de367b837f2c6c64b.json",
+					"name" : "cifriVoVtorBroj",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "daliNiziteSeIsti::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-daliNiziteSeIsti-Debug-0ed7135be67a6890951d.json",
+					"name" : "daliNiziteSeIsti",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "deliviBroeviInterval::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-deliviBroeviInterval-Debug-7263ed5c324c244b9b5e.json",
 					"name" : "deliviBroeviInterval",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ednocifreniBroevi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ednocifreniBroevi-Debug-ab5e3552f34c6a7a7382.json",
+					"name" : "ednocifreniBroevi",
 					"projectIndex" : 0
 				},
 				{
@@ -152,9 +215,30 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "izbrishiDuplikati::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-izbrishiDuplikati-Debug-a294dc76476ffbd5a773.json",
+					"name" : "izbrishiDuplikati",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "kreirajKorisnickaSmetka::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-kreirajKorisnickaSmetka-Debug-0daa7f8781533b91aacb.json",
 					"name" : "kreirajKorisnickaSmetka",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "krugDLP::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-krugDLP-Debug-5978af8d64359ee18951.json",
+					"name" : "krugDLP",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "maxBroj::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-maxBroj-Debug-65ce92379446c8c0811b.json",
+					"name" : "maxBroj",
 					"projectIndex" : 0
 				},
 				{
@@ -194,9 +278,37 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "prostiBroevi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prostiBroevi-Debug-3d294cefe73127d1b423.json",
+					"name" : "prostiBroevi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "quadraticEquation::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-quadraticEquation-Debug-5844b5f8119c7d084032.json",
 					"name" : "quadraticEquation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rotiranjeEdenDesno::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rotiranjeEdenDesno-Debug-7eaa3d7e2a4311a5f20c.json",
+					"name" : "rotiranjeEdenDesno",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rotiranjeMDesno::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rotiranjeMDesno-Debug-bd20301e318dd51f4d5d.json",
+					"name" : "rotiranjeMDesno",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skalarenProizvod::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skalarenProizvod-Debug-91357b3efe7233eaee4f.json",
+					"name" : "skalarenProizvod",
 					"projectIndex" : 0
 				},
 				{
@@ -271,6 +383,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "strogoRasteckaIliOpagjacka::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-strogoRasteckaIliOpagjacka-Debug-303f941f2c666921935f.json",
+					"name" : "strogoRasteckaIliOpagjacka",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "tikTakBroj::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-tikTakBroj-Debug-ccdbb6a716ba2ecf2360.json",
 					"name" : "tikTakBroj",
@@ -295,6 +414,13 @@
 					"id" : "zbirCifri::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-zbirCifri-Debug-e35408dc8904a1ed65fa.json",
 					"name" : "zbirCifri",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zbirParniNeparniElementi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zbirParniNeparniElementi-Debug-675d7453534e950b3aa3.json",
+					"name" : "zbirParniNeparniElementi",
 					"projectIndex" : 0
 				},
 				{

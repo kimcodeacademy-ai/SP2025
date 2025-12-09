@@ -1030,6 +1030,468 @@ build zbirSlikaBroj.exe: CXX_EXECUTABLE_LINKER__zbirSlikaBroj_Debug CMakeFiles/z
   TARGET_IMPLIB = libzbirSlikaBroj.dll.a
   TARGET_PDB = zbirSlikaBroj.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target maxBroj
+
+
+#############################################
+# Order-only phony target for maxBroj
+
+build cmake_object_order_depends_target_maxBroj: phony || CMakeFiles/maxBroj.dir
+
+build CMakeFiles/maxBroj.dir/3-Loops/17-MaxBroj.cpp.obj: CXX_COMPILER__maxBroj_Debug C$:/Users/jakim/CLionProjects/SP2025/3-Loops/17-MaxBroj.cpp || cmake_object_order_depends_target_maxBroj
+  DEP_FILE = CMakeFiles\maxBroj.dir\3-Loops\17-MaxBroj.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\maxBroj.dir
+  OBJECT_FILE_DIR = CMakeFiles\maxBroj.dir\3-Loops
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target maxBroj
+
+
+#############################################
+# Link the executable maxBroj.exe
+
+build maxBroj.exe: CXX_EXECUTABLE_LINKER__maxBroj_Debug CMakeFiles/maxBroj.dir/3-Loops/17-MaxBroj.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\maxBroj.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = maxBroj.exe
+  TARGET_IMPLIB = libmaxBroj.dll.a
+  TARGET_PDB = maxBroj.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target apsolutnaVrednost
+
+
+#############################################
+# Order-only phony target for apsolutnaVrednost
+
+build cmake_object_order_depends_target_apsolutnaVrednost: phony || CMakeFiles/apsolutnaVrednost.dir
+
+build CMakeFiles/apsolutnaVrednost.dir/4-Functions/1-ApsolutnaVrednost.cpp.obj: CXX_COMPILER__apsolutnaVrednost_Debug C$:/Users/jakim/CLionProjects/SP2025/4-Functions/1-ApsolutnaVrednost.cpp || cmake_object_order_depends_target_apsolutnaVrednost
+  DEP_FILE = CMakeFiles\apsolutnaVrednost.dir\4-Functions\1-ApsolutnaVrednost.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\apsolutnaVrednost.dir
+  OBJECT_FILE_DIR = CMakeFiles\apsolutnaVrednost.dir\4-Functions
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target apsolutnaVrednost
+
+
+#############################################
+# Link the executable apsolutnaVrednost.exe
+
+build apsolutnaVrednost.exe: CXX_EXECUTABLE_LINKER__apsolutnaVrednost_Debug CMakeFiles/apsolutnaVrednost.dir/4-Functions/1-ApsolutnaVrednost.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\apsolutnaVrednost.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = apsolutnaVrednost.exe
+  TARGET_IMPLIB = libapsolutnaVrednost.dll.a
+  TARGET_PDB = apsolutnaVrednost.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target krugDLP
+
+
+#############################################
+# Order-only phony target for krugDLP
+
+build cmake_object_order_depends_target_krugDLP: phony || CMakeFiles/krugDLP.dir
+
+build CMakeFiles/krugDLP.dir/4-Functions/2-KrugDLP.cpp.obj: CXX_COMPILER__krugDLP_Debug C$:/Users/jakim/CLionProjects/SP2025/4-Functions/2-KrugDLP.cpp || cmake_object_order_depends_target_krugDLP
+  DEP_FILE = CMakeFiles\krugDLP.dir\4-Functions\2-KrugDLP.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\krugDLP.dir
+  OBJECT_FILE_DIR = CMakeFiles\krugDLP.dir\4-Functions
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target krugDLP
+
+
+#############################################
+# Link the executable krugDLP.exe
+
+build krugDLP.exe: CXX_EXECUTABLE_LINKER__krugDLP_Debug CMakeFiles/krugDLP.dir/4-Functions/2-KrugDLP.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\krugDLP.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = krugDLP.exe
+  TARGET_IMPLIB = libkrugDLP.dll.a
+  TARGET_PDB = krugDLP.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target cifriVoVtorBroj
+
+
+#############################################
+# Order-only phony target for cifriVoVtorBroj
+
+build cmake_object_order_depends_target_cifriVoVtorBroj: phony || CMakeFiles/cifriVoVtorBroj.dir
+
+build CMakeFiles/cifriVoVtorBroj.dir/4-Functions/3-CifriVoVtorBroj.cpp.obj: CXX_COMPILER__cifriVoVtorBroj_Debug C$:/Users/jakim/CLionProjects/SP2025/4-Functions/3-CifriVoVtorBroj.cpp || cmake_object_order_depends_target_cifriVoVtorBroj
+  DEP_FILE = CMakeFiles\cifriVoVtorBroj.dir\4-Functions\3-CifriVoVtorBroj.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cifriVoVtorBroj.dir
+  OBJECT_FILE_DIR = CMakeFiles\cifriVoVtorBroj.dir\4-Functions
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cifriVoVtorBroj
+
+
+#############################################
+# Link the executable cifriVoVtorBroj.exe
+
+build cifriVoVtorBroj.exe: CXX_EXECUTABLE_LINKER__cifriVoVtorBroj_Debug CMakeFiles/cifriVoVtorBroj.dir/4-Functions/3-CifriVoVtorBroj.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\cifriVoVtorBroj.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cifriVoVtorBroj.exe
+  TARGET_IMPLIB = libcifriVoVtorBroj.dll.a
+  TARGET_PDB = cifriVoVtorBroj.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bingo
+
+
+#############################################
+# Order-only phony target for bingo
+
+build cmake_object_order_depends_target_bingo: phony || CMakeFiles/bingo.dir
+
+build CMakeFiles/bingo.dir/4-Functions/4-Bingo.cpp.obj: CXX_COMPILER__bingo_Debug C$:/Users/jakim/CLionProjects/SP2025/4-Functions/4-Bingo.cpp || cmake_object_order_depends_target_bingo
+  DEP_FILE = CMakeFiles\bingo.dir\4-Functions\4-Bingo.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\bingo.dir
+  OBJECT_FILE_DIR = CMakeFiles\bingo.dir\4-Functions
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bingo
+
+
+#############################################
+# Link the executable bingo.exe
+
+build bingo.exe: CXX_EXECUTABLE_LINKER__bingo_Debug CMakeFiles/bingo.dir/4-Functions/4-Bingo.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\bingo.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = bingo.exe
+  TARGET_IMPLIB = libbingo.dll.a
+  TARGET_PDB = bingo.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target prostiBroevi
+
+
+#############################################
+# Order-only phony target for prostiBroevi
+
+build cmake_object_order_depends_target_prostiBroevi: phony || CMakeFiles/prostiBroevi.dir
+
+build CMakeFiles/prostiBroevi.dir/4-Functions/5-ProstiBroevi.cpp.obj: CXX_COMPILER__prostiBroevi_Debug C$:/Users/jakim/CLionProjects/SP2025/4-Functions/5-ProstiBroevi.cpp || cmake_object_order_depends_target_prostiBroevi
+  DEP_FILE = CMakeFiles\prostiBroevi.dir\4-Functions\5-ProstiBroevi.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\prostiBroevi.dir
+  OBJECT_FILE_DIR = CMakeFiles\prostiBroevi.dir\4-Functions
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target prostiBroevi
+
+
+#############################################
+# Link the executable prostiBroevi.exe
+
+build prostiBroevi.exe: CXX_EXECUTABLE_LINKER__prostiBroevi_Debug CMakeFiles/prostiBroevi.dir/4-Functions/5-ProstiBroevi.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\prostiBroevi.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = prostiBroevi.exe
+  TARGET_IMPLIB = libprostiBroevi.dll.a
+  TARGET_PDB = prostiBroevi.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target daliNiziteSeIsti
+
+
+#############################################
+# Order-only phony target for daliNiziteSeIsti
+
+build cmake_object_order_depends_target_daliNiziteSeIsti: phony || CMakeFiles/daliNiziteSeIsti.dir
+
+build CMakeFiles/daliNiziteSeIsti.dir/5-Arrays/1-DaliNiziteSeIsti.cpp.obj: CXX_COMPILER__daliNiziteSeIsti_Debug C$:/Users/jakim/CLionProjects/SP2025/5-Arrays/1-DaliNiziteSeIsti.cpp || cmake_object_order_depends_target_daliNiziteSeIsti
+  DEP_FILE = CMakeFiles\daliNiziteSeIsti.dir\5-Arrays\1-DaliNiziteSeIsti.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\daliNiziteSeIsti.dir
+  OBJECT_FILE_DIR = CMakeFiles\daliNiziteSeIsti.dir\5-Arrays
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target daliNiziteSeIsti
+
+
+#############################################
+# Link the executable daliNiziteSeIsti.exe
+
+build daliNiziteSeIsti.exe: CXX_EXECUTABLE_LINKER__daliNiziteSeIsti_Debug CMakeFiles/daliNiziteSeIsti.dir/5-Arrays/1-DaliNiziteSeIsti.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\daliNiziteSeIsti.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = daliNiziteSeIsti.exe
+  TARGET_IMPLIB = libdaliNiziteSeIsti.dll.a
+  TARGET_PDB = daliNiziteSeIsti.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target zbirParniNeparniElementi
+
+
+#############################################
+# Order-only phony target for zbirParniNeparniElementi
+
+build cmake_object_order_depends_target_zbirParniNeparniElementi: phony || CMakeFiles/zbirParniNeparniElementi.dir
+
+build CMakeFiles/zbirParniNeparniElementi.dir/5-Arrays/2-ZbirParniINeparniElementi.cpp.obj: CXX_COMPILER__zbirParniNeparniElementi_Debug C$:/Users/jakim/CLionProjects/SP2025/5-Arrays/2-ZbirParniINeparniElementi.cpp || cmake_object_order_depends_target_zbirParniNeparniElementi
+  DEP_FILE = CMakeFiles\zbirParniNeparniElementi.dir\5-Arrays\2-ZbirParniINeparniElementi.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\zbirParniNeparniElementi.dir
+  OBJECT_FILE_DIR = CMakeFiles\zbirParniNeparniElementi.dir\5-Arrays
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zbirParniNeparniElementi
+
+
+#############################################
+# Link the executable zbirParniNeparniElementi.exe
+
+build zbirParniNeparniElementi.exe: CXX_EXECUTABLE_LINKER__zbirParniNeparniElementi_Debug CMakeFiles/zbirParniNeparniElementi.dir/5-Arrays/2-ZbirParniINeparniElementi.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\zbirParniNeparniElementi.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = zbirParniNeparniElementi.exe
+  TARGET_IMPLIB = libzbirParniNeparniElementi.dll.a
+  TARGET_PDB = zbirParniNeparniElementi.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target skalarenProizvod
+
+
+#############################################
+# Order-only phony target for skalarenProizvod
+
+build cmake_object_order_depends_target_skalarenProizvod: phony || CMakeFiles/skalarenProizvod.dir
+
+build CMakeFiles/skalarenProizvod.dir/5-Arrays/3-SkalarenProizvod.cpp.obj: CXX_COMPILER__skalarenProizvod_Debug C$:/Users/jakim/CLionProjects/SP2025/5-Arrays/3-SkalarenProizvod.cpp || cmake_object_order_depends_target_skalarenProizvod
+  DEP_FILE = CMakeFiles\skalarenProizvod.dir\5-Arrays\3-SkalarenProizvod.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\skalarenProizvod.dir
+  OBJECT_FILE_DIR = CMakeFiles\skalarenProizvod.dir\5-Arrays
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target skalarenProizvod
+
+
+#############################################
+# Link the executable skalarenProizvod.exe
+
+build skalarenProizvod.exe: CXX_EXECUTABLE_LINKER__skalarenProizvod_Debug CMakeFiles/skalarenProizvod.dir/5-Arrays/3-SkalarenProizvod.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\skalarenProizvod.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = skalarenProizvod.exe
+  TARGET_IMPLIB = libskalarenProizvod.dll.a
+  TARGET_PDB = skalarenProizvod.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target strogoRasteckaIliOpagjacka
+
+
+#############################################
+# Order-only phony target for strogoRasteckaIliOpagjacka
+
+build cmake_object_order_depends_target_strogoRasteckaIliOpagjacka: phony || CMakeFiles/strogoRasteckaIliOpagjacka.dir
+
+build CMakeFiles/strogoRasteckaIliOpagjacka.dir/5-Arrays/4-StrogoRasteckaIliOpagjacka.cpp.obj: CXX_COMPILER__strogoRasteckaIliOpagjacka_Debug C$:/Users/jakim/CLionProjects/SP2025/5-Arrays/4-StrogoRasteckaIliOpagjacka.cpp || cmake_object_order_depends_target_strogoRasteckaIliOpagjacka
+  DEP_FILE = CMakeFiles\strogoRasteckaIliOpagjacka.dir\5-Arrays\4-StrogoRasteckaIliOpagjacka.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\strogoRasteckaIliOpagjacka.dir
+  OBJECT_FILE_DIR = CMakeFiles\strogoRasteckaIliOpagjacka.dir\5-Arrays
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target strogoRasteckaIliOpagjacka
+
+
+#############################################
+# Link the executable strogoRasteckaIliOpagjacka.exe
+
+build strogoRasteckaIliOpagjacka.exe: CXX_EXECUTABLE_LINKER__strogoRasteckaIliOpagjacka_Debug CMakeFiles/strogoRasteckaIliOpagjacka.dir/5-Arrays/4-StrogoRasteckaIliOpagjacka.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\strogoRasteckaIliOpagjacka.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = strogoRasteckaIliOpagjacka.exe
+  TARGET_IMPLIB = libstrogoRasteckaIliOpagjacka.dll.a
+  TARGET_PDB = strogoRasteckaIliOpagjacka.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target rotiranjeEdenDesno
+
+
+#############################################
+# Order-only phony target for rotiranjeEdenDesno
+
+build cmake_object_order_depends_target_rotiranjeEdenDesno: phony || CMakeFiles/rotiranjeEdenDesno.dir
+
+build CMakeFiles/rotiranjeEdenDesno.dir/5-Arrays/5-RotiranjeEdenDesno.cpp.obj: CXX_COMPILER__rotiranjeEdenDesno_Debug C$:/Users/jakim/CLionProjects/SP2025/5-Arrays/5-RotiranjeEdenDesno.cpp || cmake_object_order_depends_target_rotiranjeEdenDesno
+  DEP_FILE = CMakeFiles\rotiranjeEdenDesno.dir\5-Arrays\5-RotiranjeEdenDesno.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\rotiranjeEdenDesno.dir
+  OBJECT_FILE_DIR = CMakeFiles\rotiranjeEdenDesno.dir\5-Arrays
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target rotiranjeEdenDesno
+
+
+#############################################
+# Link the executable rotiranjeEdenDesno.exe
+
+build rotiranjeEdenDesno.exe: CXX_EXECUTABLE_LINKER__rotiranjeEdenDesno_Debug CMakeFiles/rotiranjeEdenDesno.dir/5-Arrays/5-RotiranjeEdenDesno.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\rotiranjeEdenDesno.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = rotiranjeEdenDesno.exe
+  TARGET_IMPLIB = librotiranjeEdenDesno.dll.a
+  TARGET_PDB = rotiranjeEdenDesno.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target rotiranjeMDesno
+
+
+#############################################
+# Order-only phony target for rotiranjeMDesno
+
+build cmake_object_order_depends_target_rotiranjeMDesno: phony || CMakeFiles/rotiranjeMDesno.dir
+
+build CMakeFiles/rotiranjeMDesno.dir/5-Arrays/6-RotiranjeMDesno.cpp.obj: CXX_COMPILER__rotiranjeMDesno_Debug C$:/Users/jakim/CLionProjects/SP2025/5-Arrays/6-RotiranjeMDesno.cpp || cmake_object_order_depends_target_rotiranjeMDesno
+  DEP_FILE = CMakeFiles\rotiranjeMDesno.dir\5-Arrays\6-RotiranjeMDesno.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\rotiranjeMDesno.dir
+  OBJECT_FILE_DIR = CMakeFiles\rotiranjeMDesno.dir\5-Arrays
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target rotiranjeMDesno
+
+
+#############################################
+# Link the executable rotiranjeMDesno.exe
+
+build rotiranjeMDesno.exe: CXX_EXECUTABLE_LINKER__rotiranjeMDesno_Debug CMakeFiles/rotiranjeMDesno.dir/5-Arrays/6-RotiranjeMDesno.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\rotiranjeMDesno.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = rotiranjeMDesno.exe
+  TARGET_IMPLIB = librotiranjeMDesno.dll.a
+  TARGET_PDB = rotiranjeMDesno.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target izbrishiDuplikati
+
+
+#############################################
+# Order-only phony target for izbrishiDuplikati
+
+build cmake_object_order_depends_target_izbrishiDuplikati: phony || CMakeFiles/izbrishiDuplikati.dir
+
+build CMakeFiles/izbrishiDuplikati.dir/5-Arrays/7-IzbrishiDuplikati.cpp.obj: CXX_COMPILER__izbrishiDuplikati_Debug C$:/Users/jakim/CLionProjects/SP2025/5-Arrays/7-IzbrishiDuplikati.cpp || cmake_object_order_depends_target_izbrishiDuplikati
+  DEP_FILE = CMakeFiles\izbrishiDuplikati.dir\5-Arrays\7-IzbrishiDuplikati.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\izbrishiDuplikati.dir
+  OBJECT_FILE_DIR = CMakeFiles\izbrishiDuplikati.dir\5-Arrays
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target izbrishiDuplikati
+
+
+#############################################
+# Link the executable izbrishiDuplikati.exe
+
+build izbrishiDuplikati.exe: CXX_EXECUTABLE_LINKER__izbrishiDuplikati_Debug CMakeFiles/izbrishiDuplikati.dir/5-Arrays/7-IzbrishiDuplikati.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\izbrishiDuplikati.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = izbrishiDuplikati.exe
+  TARGET_IMPLIB = libizbrishiDuplikati.dll.a
+  TARGET_PDB = izbrishiDuplikati.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ednocifreniBroevi
+
+
+#############################################
+# Order-only phony target for ednocifreniBroevi
+
+build cmake_object_order_depends_target_ednocifreniBroevi: phony || CMakeFiles/ednocifreniBroevi.dir
+
+build CMakeFiles/ednocifreniBroevi.dir/5-Arrays/8-EdnocifreniBroevi.cpp.obj: CXX_COMPILER__ednocifreniBroevi_Debug C$:/Users/jakim/CLionProjects/SP2025/5-Arrays/8-EdnocifreniBroevi.cpp || cmake_object_order_depends_target_ednocifreniBroevi
+  DEP_FILE = CMakeFiles\ednocifreniBroevi.dir\5-Arrays\8-EdnocifreniBroevi.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ednocifreniBroevi.dir
+  OBJECT_FILE_DIR = CMakeFiles\ednocifreniBroevi.dir\5-Arrays
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ednocifreniBroevi
+
+
+#############################################
+# Link the executable ednocifreniBroevi.exe
+
+build ednocifreniBroevi.exe: CXX_EXECUTABLE_LINKER__ednocifreniBroevi_Debug CMakeFiles/ednocifreniBroevi.dir/5-Arrays/8-EdnocifreniBroevi.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ednocifreniBroevi.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ednocifreniBroevi.exe
+  TARGET_IMPLIB = libednocifreniBroevi.dll.a
+  TARGET_PDB = ednocifreniBroevi.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1060,19 +1522,35 @@ build SP2025: phony SP2025.exe
 
 build SedumCifrenBroj: phony SedumCifrenBroj.exe
 
+build apsolutnaVrednost: phony apsolutnaVrednost.exe
+
+build bingo: phony bingo.exe
+
 build broeviVoInterval: phony broeviVoInterval.exe
 
 build brojTelefon: phony brojTelefon.exe
 
 build cetiriCifrenKolega: phony cetiriCifrenKolega.exe
 
+build cifriVoVtorBroj: phony cifriVoVtorBroj.exe
+
+build daliNiziteSeIsti: phony daliNiziteSeIsti.exe
+
 build deliviBroeviInterval: phony deliviBroeviInterval.exe
+
+build ednocifreniBroevi: phony ednocifreniBroevi.exe
 
 build fiskalnaSmetka1: phony fiskalnaSmetka1.exe
 
 build fiskalnaSmetka2: phony fiskalnaSmetka2.exe
 
+build izbrishiDuplikati: phony izbrishiDuplikati.exe
+
 build kreirajKorisnickaSmetka: phony kreirajKorisnickaSmetka.exe
+
+build krugDLP: phony krugDLP.exe
+
+build maxBroj: phony maxBroj.exe
 
 build najdolgaOtsecka: phony najdolgaOtsecka.exe
 
@@ -1084,7 +1562,15 @@ build poeniOcenka: phony poeniOcenka.exe
 
 build potrosenaStruja: phony potrosenaStruja.exe
 
+build prostiBroevi: phony prostiBroevi.exe
+
 build quadraticEquation: phony quadraticEquation.exe
+
+build rotiranjeEdenDesno: phony rotiranjeEdenDesno.exe
+
+build rotiranjeMDesno: phony rotiranjeMDesno.exe
+
+build skalarenProizvod: phony skalarenProizvod.exe
 
 build specijalenBroj: phony specijalenBroj.exe
 
@@ -1106,6 +1592,8 @@ build starsInfinitySign: phony starsInfinitySign.exe
 
 build starsSquareAndDiagonal: phony starsSquareAndDiagonal.exe
 
+build strogoRasteckaIliOpagjacka: phony strogoRasteckaIliOpagjacka.exe
+
 build tikTakBroj: phony tikTakBroj.exe
 
 build validenDatum: phony validenDatum.exe
@@ -1113,6 +1601,8 @@ build validenDatum: phony validenDatum.exe
 build validenDatum1: phony validenDatum1.exe
 
 build zbirCifri: phony zbirCifri.exe
+
+build zbirParniNeparniElementi: phony zbirParniNeparniElementi.exe
 
 build zbirSlikaBroj: phony zbirSlikaBroj.exe
 
@@ -1124,7 +1614,7 @@ build zbirSlikaBroj: phony zbirSlikaBroj.exe
 #############################################
 # Folder: C:/Users/jakim/CLionProjects/SP2025/cmake-build-debug
 
-build all: phony SP2025.exe SedumCifrenBroj.exe quadraticEquation.exe cetiriCifrenKolega.exe kreirajKorisnickaSmetka.exe najdolgaOtsecka.exe palindromPetCifrenBroj.exe poeniOcenka.exe validenDatum.exe validenDatum1.exe potrosenaStruja.exe specijalenBroj.exe brojTelefon.exe tikTakBroj.exe starsInfinitySign.exe broeviVoInterval.exe zbirCifri.exe deliviBroeviInterval.exe fiskalnaSmetka1.exe fiskalnaSmetka2.exe najgolemaRazlika.exe starsSquareAndDiagonal.exe starsHourGlass.exe starsFullLeftBottomTriangle.exe starsHollowLeftBottomTriangle.exe starsFullTopLeftTriangle.exe starsHollowTopLeftTriangle.exe starsFullBottomRightTriangle.exe starsHollowBottomRightTriangle.exe zbirSlikaBroj.exe
+build all: phony SP2025.exe SedumCifrenBroj.exe quadraticEquation.exe cetiriCifrenKolega.exe kreirajKorisnickaSmetka.exe najdolgaOtsecka.exe palindromPetCifrenBroj.exe poeniOcenka.exe validenDatum.exe validenDatum1.exe potrosenaStruja.exe specijalenBroj.exe brojTelefon.exe tikTakBroj.exe starsInfinitySign.exe broeviVoInterval.exe zbirCifri.exe deliviBroeviInterval.exe fiskalnaSmetka1.exe fiskalnaSmetka2.exe najgolemaRazlika.exe starsSquareAndDiagonal.exe starsHourGlass.exe starsFullLeftBottomTriangle.exe starsHollowLeftBottomTriangle.exe starsFullTopLeftTriangle.exe starsHollowTopLeftTriangle.exe starsFullBottomRightTriangle.exe starsHollowBottomRightTriangle.exe zbirSlikaBroj.exe maxBroj.exe apsolutnaVrednost.exe krugDLP.exe cifriVoVtorBroj.exe bingo.exe prostiBroevi.exe daliNiziteSeIsti.exe zbirParniNeparniElementi.exe skalarenProizvod.exe strogoRasteckaIliOpagjacka.exe rotiranjeEdenDesno.exe rotiranjeMDesno.exe izbrishiDuplikati.exe ednocifreniBroevi.exe
 
 # =============================================================================
 # Built-in targets

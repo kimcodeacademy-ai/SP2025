@@ -2,5 +2,9 @@
 using namespace std;
 
 int main() {
-    cout<<"Hello world!"<<endl;
+    int max; ///12823653257
+    cout<<"Hello world!\n";
+    for(int i = 1; i < 10; i++){
+        cout<<"Hello world!"<<endl;
+    }
 }

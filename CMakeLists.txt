@@ -63,3 +63,33 @@ add_executable(starsHollowBottomRightTriangle 3-Loops/15-StarsHollowBottomRightT
 
 add_executable(zbirSlikaBroj 3-Loops/16-ZbirSlikaBroj.cpp)
 
+add_executable(maxBroj 3-Loops/17-MaxBroj.cpp)
+
+add_executable(apsolutnaVrednost 4-Functions/1-ApsolutnaVrednost.cpp)
+
+add_executable(krugDLP 4-Functions/2-KrugDLP.cpp)
+
+add_executable(cifriVoVtorBroj 4-Functions/3-CifriVoVtorBroj.cpp)
+
+add_executable(bingo 4-Functions/4-Bingo.cpp)
+
+add_executable(prostiBroevi 4-Functions/5-ProstiBroevi.cpp)
+
+add_executable(daliNiziteSeIsti 5-Arrays/1-DaliNiziteSeIsti.cpp)
+
+add_executable(zbirParniNeparniElementi 5-Arrays/2-ZbirParniINeparniElementi.cpp)
+
+add_executable(skalarenProizvod 5-Arrays/3-SkalarenProizvod.cpp)
+
+add_executable(strogoRasteckaIliOpagjacka 5-Arrays/4-StrogoRasteckaIliOpagjacka.cpp)
+
+add_executable(rotiranjeEdenDesno 5-Arrays/5-RotiranjeEdenDesno.cpp)
+
+add_executable(rotiranjeMDesno 5-Arrays/6-RotiranjeMDesno.cpp)
+
+add_executable(izbrishiDuplikati 5-Arrays/7-IzbrishiDuplikati.cpp)
+
+add_executable(ednocifreniBroevi 5-Arrays/8-EdnocifreniBroevi.cpp)
+
+
+
