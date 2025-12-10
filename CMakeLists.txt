@@ -31,6 +31,12 @@ add_executable(brojTelefon 2-Conditions/11-BrojTelefon.cpp)
 
 add_executable(tikTakBroj 2-Conditions/12-TikTakBroj.cpp)
 
+add_executable(prviStobroevi 3-Loops/0.1-prviStoBroevi.cpp)
+
+add_executable(sumaCifri 3-Loops/0.2-sumaNaCifri.cpp)
+
+add_executable(cetiriCifrenBrojCifri 3-Loops/0.4-CetiriCifrenBrojCifri.cpp)
+
 add_executable(starsInfinitySign 3-Loops/1-StarsInfinitySign.cpp)
 
 add_executable(broeviVoInterval 3-Loops/2-BroeviVoInterval.cpp)
@@ -74,6 +80,10 @@ add_executable(cifriVoVtorBroj 4-Functions/3-CifriVoVtorBroj.cpp)
 add_executable(bingo 4-Functions/4-Bingo.cpp)
 
 add_executable(prostiBroevi 4-Functions/5-ProstiBroevi.cpp)
+
+add_executable(prostiBroeviDo1000 4-Functions/6-ProstiBroeviDo1000.cpp)
+
+add_executable(kalkulator 4-Functions/7-Kalkulator.cpp)
 
 add_executable(daliNiziteSeIsti 5-Arrays/1-DaliNiziteSeIsti.cpp)
 

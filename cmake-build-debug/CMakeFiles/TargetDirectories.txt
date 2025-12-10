@@ -12,6 +12,9 @@ C:/Users/jakim/CLionProjects/SP2025/cmake-build-debug/CMakeFiles/potrosenaStruja
 C:/Users/jakim/CLionProjects/SP2025/cmake-build-debug/CMakeFiles/specijalenBroj.dir
 C:/Users/jakim/CLionProjects/SP2025/cmake-build-debug/CMakeFiles/brojTelefon.dir
 C:/Users/jakim/CLionProjects/SP2025/cmake-build-debug/CMakeFiles/tikTakBroj.dir
+C:/Users/jakim/CLionProjects/SP2025/cmake-build-debug/CMakeFiles/prviStobroevi.dir
+C:/Users/jakim/CLionProjects/SP2025/cmake-build-debug/CMakeFiles/sumaCifri.dir
+C:/Users/jakim/CLionProjects/SP2025/cmake-build-debug/CMakeFiles/cetiriCifrenBrojCifri.dir
 C:/Users/jakim/CLionProjects/SP2025/cmake-build-debug/CMakeFiles/starsInfinitySign.dir
 C:/Users/jakim/CLionProjects/SP2025/cmake-build-debug/CMakeFiles/broeviVoInterval.dir
 C:/Users/jakim/CLionProjects/SP2025/cmake-build-debug/CMakeFiles/zbirCifri.dir
@@ -34,6 +37,8 @@ C:/Users/jakim/CLionProjects/SP2025/cmake-build-debug/CMakeFiles/krugDLP.dir
 C:/Users/jakim/CLionProjects/SP2025/cmake-build-debug/CMakeFiles/cifriVoVtorBroj.dir
 C:/Users/jakim/CLionProjects/SP2025/cmake-build-debug/CMakeFiles/bingo.dir
 C:/Users/jakim/CLionProjects/SP2025/cmake-build-debug/CMakeFiles/prostiBroevi.dir
+C:/Users/jakim/CLionProjects/SP2025/cmake-build-debug/CMakeFiles/prostiBroeviDo1000.dir
+C:/Users/jakim/CLionProjects/SP2025/cmake-build-debug/CMakeFiles/kalkulator.dir
 C:/Users/jakim/CLionProjects/SP2025/cmake-build-debug/CMakeFiles/daliNiziteSeIsti.dir
 C:/Users/jakim/CLionProjects/SP2025/cmake-build-debug/CMakeFiles/zbirParniNeparniElementi.dir
 C:/Users/jakim/CLionProjects/SP2025/cmake-build-debug/CMakeFiles/skalarenProizvod.dir

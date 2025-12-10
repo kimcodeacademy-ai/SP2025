@@ -1,0 +1,492 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SP2025",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SP2025::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SP2025-Debug-1dc5ad28707f7784216d.json",
+					"name" : "SP2025",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SedumCifrenBroj::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SedumCifrenBroj-Debug-b8685b7dc84ab7613772.json",
+					"name" : "SedumCifrenBroj",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apsolutnaVrednost::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apsolutnaVrednost-Debug-253d61d562fe7b9bfc97.json",
+					"name" : "apsolutnaVrednost",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bingo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bingo-Debug-eeff13806731f8c6526c.json",
+					"name" : "bingo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "broeviVoInterval::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-broeviVoInterval-Debug-7718ee5d164fb2de652e.json",
+					"name" : "broeviVoInterval",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "brojTelefon::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-brojTelefon-Debug-c58a4d988f6d72f7ae36.json",
+					"name" : "brojTelefon",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cetiriCifrenBrojCifri::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cetiriCifrenBrojCifri-Debug-c64345c3c0748ee6811b.json",
+					"name" : "cetiriCifrenBrojCifri",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cetiriCifrenKolega::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cetiriCifrenKolega-Debug-b3bde5043736dc440c08.json",
+					"name" : "cetiriCifrenKolega",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cifriVoVtorBroj::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cifriVoVtorBroj-Debug-abea7f2e66786e8f9b85.json",
+					"name" : "cifriVoVtorBroj",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "daliNiziteSeIsti::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-daliNiziteSeIsti-Debug-1a297c0d46a31b57655c.json",
+					"name" : "daliNiziteSeIsti",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "deliviBroeviInterval::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-deliviBroeviInterval-Debug-cd3b9926da420112eb95.json",
+					"name" : "deliviBroeviInterval",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ednocifreniBroevi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ednocifreniBroevi-Debug-bb4c4a926a35eff870a0.json",
+					"name" : "ednocifreniBroevi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fiskalnaSmetka1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fiskalnaSmetka1-Debug-57711a26e902d6dbb9a7.json",
+					"name" : "fiskalnaSmetka1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fiskalnaSmetka2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fiskalnaSmetka2-Debug-8ac3367be8585dc1c138.json",
+					"name" : "fiskalnaSmetka2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "izbrishiDuplikati::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-izbrishiDuplikati-Debug-c3886c125aa29a7c5c0b.json",
+					"name" : "izbrishiDuplikati",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kalkulator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kalkulator-Debug-602b7a4bacf31814c506.json",
+					"name" : "kalkulator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kreirajKorisnickaSmetka::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kreirajKorisnickaSmetka-Debug-0daa7f8781533b91aacb.json",
+					"name" : "kreirajKorisnickaSmetka",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "krugDLP::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-krugDLP-Debug-a731a9c496db9d856a2e.json",
+					"name" : "krugDLP",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "maxBroj::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-maxBroj-Debug-75fd2d78da4e1f938901.json",
+					"name" : "maxBroj",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "najdolgaOtsecka::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-najdolgaOtsecka-Debug-b35e30f132eda1f75965.json",
+					"name" : "najdolgaOtsecka",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "najgolemaRazlika::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-najgolemaRazlika-Debug-03392c5176af5fc7dd8b.json",
+					"name" : "najgolemaRazlika",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "palindromPetCifrenBroj::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-palindromPetCifrenBroj-Debug-ac82d876f5b442214bfb.json",
+					"name" : "palindromPetCifrenBroj",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "poeniOcenka::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-poeniOcenka-Debug-441952ee9b8c9dcb134d.json",
+					"name" : "poeniOcenka",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "potrosenaStruja::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-potrosenaStruja-Debug-8de8e6b90871c1547f3d.json",
+					"name" : "potrosenaStruja",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prostiBroevi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prostiBroevi-Debug-fa499e2399f720c0d6d3.json",
+					"name" : "prostiBroevi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prostiBroeviDo1000::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prostiBroeviDo1000-Debug-955e78c37f8cc96dd951.json",
+					"name" : "prostiBroeviDo1000",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prviStobroevi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prviStobroevi-Debug-79118353015adcfcb1b7.json",
+					"name" : "prviStobroevi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadraticEquation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadraticEquation-Debug-5844b5f8119c7d084032.json",
+					"name" : "quadraticEquation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rotiranjeEdenDesno::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rotiranjeEdenDesno-Debug-224c12c5ba7c23ccfff6.json",
+					"name" : "rotiranjeEdenDesno",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rotiranjeMDesno::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rotiranjeMDesno-Debug-af15a6c6b132f10b377e.json",
+					"name" : "rotiranjeMDesno",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skalarenProizvod::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skalarenProizvod-Debug-73f81e951414ac4ea008.json",
+					"name" : "skalarenProizvod",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "specijalenBroj::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-specijalenBroj-Debug-19beadd7e39a413d86e7.json",
+					"name" : "specijalenBroj",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "starsFullBottomRightTriangle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-starsFullBottomRightTriangle-Debug-86a9a52f47f6712b5934.json",
+					"name" : "starsFullBottomRightTriangle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "starsFullLeftBottomTriangle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-starsFullLeftBottomTriangle-Debug-9efa46beec13bd367dae.json",
+					"name" : "starsFullLeftBottomTriangle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "starsFullTopLeftTriangle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-starsFullTopLeftTriangle-Debug-7217f35001f954b7c01d.json",
+					"name" : "starsFullTopLeftTriangle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "starsHollowBottomRightTriangle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-starsHollowBottomRightTriangle-Debug-34df8dd0ecb508cf1656.json",
+					"name" : "starsHollowBottomRightTriangle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "starsHollowLeftBottomTriangle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-starsHollowLeftBottomTriangle-Debug-32ec3f0255cfefa52c42.json",
+					"name" : "starsHollowLeftBottomTriangle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "starsHollowTopLeftTriangle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-starsHollowTopLeftTriangle-Debug-be873bac9d20b3de6498.json",
+					"name" : "starsHollowTopLeftTriangle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "starsHourGlass::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-starsHourGlass-Debug-f8f656b2d47424268800.json",
+					"name" : "starsHourGlass",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "starsInfinitySign::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-starsInfinitySign-Debug-b3767d811b368d57eaa6.json",
+					"name" : "starsInfinitySign",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "starsSquareAndDiagonal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-starsSquareAndDiagonal-Debug-c00d8470604478fc21df.json",
+					"name" : "starsSquareAndDiagonal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "strogoRasteckaIliOpagjacka::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-strogoRasteckaIliOpagjacka-Debug-b7d117c502bba0ca18b8.json",
+					"name" : "strogoRasteckaIliOpagjacka",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sumaCifri::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sumaCifri-Debug-30524399f4e6687eeedb.json",
+					"name" : "sumaCifri",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tikTakBroj::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tikTakBroj-Debug-ccdbb6a716ba2ecf2360.json",
+					"name" : "tikTakBroj",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "validenDatum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-validenDatum-Debug-557de58861e82bb38d3c.json",
+					"name" : "validenDatum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "validenDatum1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-validenDatum1-Debug-5550caa352e0a5d595fb.json",
+					"name" : "validenDatum1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zbirCifri::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zbirCifri-Debug-08a33e7c8475633876d3.json",
+					"name" : "zbirCifri",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zbirParniNeparniElementi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zbirParniNeparniElementi-Debug-17b9f90b92995ced96b8.json",
+					"name" : "zbirParniNeparniElementi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zbirSlikaBroj::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zbirSlikaBroj-Debug-64e8eb19d62eedf6c929.json",
+					"name" : "zbirSlikaBroj",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/jakim/CLionProjects/SP2025/cmake-build-debug",
+		"source" : "C:/Users/jakim/CLionProjects/SP2025"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

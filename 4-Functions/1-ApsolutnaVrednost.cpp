@@ -4,7 +4,7 @@
 Дефинираме вредност d за тројка цели броеви a, b и c , така што таа се пресметува како сума меѓу
 апсолутните разлики од првиот и вториот број, од една страна, и вториот и третиот број, од друга страна:
 d = |(a-b)| + |(b-c)|
-Да се напише програма со којашто од тастатура се вчитуваат N тројки цели броеви (N се внесува од тастатура),
+Да се напише програма со којашто од тастатура се вчитуваат N тројки цели броеви (N се внесува од тастатура и е поголемо од 0),
 и која што ја наоѓа и ја печати најмалата вредност за d од прочитаните тројки.
 
 Да не се користи библиотеката <cmath>, да се дефинира посебна функција која како аргумент ќе прима цел број
@@ -39,8 +39,38 @@ Result:
  */
 //
 #include <iostream>
+
 using namespace std;
 
+int apsolutnaVrednost(int a) {
+    if (a < 0) {
+        a = a * (-1);
+    }
+    return a;
+}
+
+int presmetajD(int a, int b, int c){
+    //d = |(a-b)| + |(b-c)|
+    int d;
+    d = apsolutnaVrednost(a - b) + apsolutnaVrednost(b-c);
+    return d;
+
+}
+
 int main() {
-    cout<<"Hello world!"<<endl;
+    int n;
+    cin>>n;
+    int minD;
+    int a, b, c;
+    cin>>a>>b>>c;
+    minD = presmetajD(a, b, c);
+    for(int i = 1; i<n;i++){
+        cin>>a>>b>>c;
+        if(presmetajD(a, b, c) < minD){
+            minD = presmetajD(a, b, c);
+        }
+    }
+    cout << minD << endl;
+    return 0;
+
 }

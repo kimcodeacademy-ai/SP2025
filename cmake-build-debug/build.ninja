@@ -503,6 +503,105 @@ build tikTakBroj.exe: CXX_EXECUTABLE_LINKER__tikTakBroj_Debug CMakeFiles/tikTakB
   TARGET_PDB = tikTakBroj.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target prviStobroevi
+
+
+#############################################
+# Order-only phony target for prviStobroevi
+
+build cmake_object_order_depends_target_prviStobroevi: phony || CMakeFiles/prviStobroevi.dir
+
+build CMakeFiles/prviStobroevi.dir/3-Loops/0.1-prviStoBroevi.cpp.obj: CXX_COMPILER__prviStobroevi_Debug C$:/Users/jakim/CLionProjects/SP2025/3-Loops/0.1-prviStoBroevi.cpp || cmake_object_order_depends_target_prviStobroevi
+  DEP_FILE = CMakeFiles\prviStobroevi.dir\3-Loops\0.1-prviStoBroevi.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\prviStobroevi.dir
+  OBJECT_FILE_DIR = CMakeFiles\prviStobroevi.dir\3-Loops
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target prviStobroevi
+
+
+#############################################
+# Link the executable prviStobroevi.exe
+
+build prviStobroevi.exe: CXX_EXECUTABLE_LINKER__prviStobroevi_Debug CMakeFiles/prviStobroevi.dir/3-Loops/0.1-prviStoBroevi.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\prviStobroevi.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = prviStobroevi.exe
+  TARGET_IMPLIB = libprviStobroevi.dll.a
+  TARGET_PDB = prviStobroevi.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sumaCifri
+
+
+#############################################
+# Order-only phony target for sumaCifri
+
+build cmake_object_order_depends_target_sumaCifri: phony || CMakeFiles/sumaCifri.dir
+
+build CMakeFiles/sumaCifri.dir/3-Loops/0.2-sumaNaCifri.cpp.obj: CXX_COMPILER__sumaCifri_Debug C$:/Users/jakim/CLionProjects/SP2025/3-Loops/0.2-sumaNaCifri.cpp || cmake_object_order_depends_target_sumaCifri
+  DEP_FILE = CMakeFiles\sumaCifri.dir\3-Loops\0.2-sumaNaCifri.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\sumaCifri.dir
+  OBJECT_FILE_DIR = CMakeFiles\sumaCifri.dir\3-Loops
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sumaCifri
+
+
+#############################################
+# Link the executable sumaCifri.exe
+
+build sumaCifri.exe: CXX_EXECUTABLE_LINKER__sumaCifri_Debug CMakeFiles/sumaCifri.dir/3-Loops/0.2-sumaNaCifri.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\sumaCifri.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = sumaCifri.exe
+  TARGET_IMPLIB = libsumaCifri.dll.a
+  TARGET_PDB = sumaCifri.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target cetiriCifrenBrojCifri
+
+
+#############################################
+# Order-only phony target for cetiriCifrenBrojCifri
+
+build cmake_object_order_depends_target_cetiriCifrenBrojCifri: phony || CMakeFiles/cetiriCifrenBrojCifri.dir
+
+build CMakeFiles/cetiriCifrenBrojCifri.dir/3-Loops/0.4-CetiriCifrenBrojCifri.cpp.obj: CXX_COMPILER__cetiriCifrenBrojCifri_Debug C$:/Users/jakim/CLionProjects/SP2025/3-Loops/0.4-CetiriCifrenBrojCifri.cpp || cmake_object_order_depends_target_cetiriCifrenBrojCifri
+  DEP_FILE = CMakeFiles\cetiriCifrenBrojCifri.dir\3-Loops\0.4-CetiriCifrenBrojCifri.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cetiriCifrenBrojCifri.dir
+  OBJECT_FILE_DIR = CMakeFiles\cetiriCifrenBrojCifri.dir\3-Loops
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cetiriCifrenBrojCifri
+
+
+#############################################
+# Link the executable cetiriCifrenBrojCifri.exe
+
+build cetiriCifrenBrojCifri.exe: CXX_EXECUTABLE_LINKER__cetiriCifrenBrojCifri_Debug CMakeFiles/cetiriCifrenBrojCifri.dir/3-Loops/0.4-CetiriCifrenBrojCifri.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\cetiriCifrenBrojCifri.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cetiriCifrenBrojCifri.exe
+  TARGET_IMPLIB = libcetiriCifrenBrojCifri.dll.a
+  TARGET_PDB = cetiriCifrenBrojCifri.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target starsInfinitySign
 
 
@@ -1229,6 +1328,72 @@ build prostiBroevi.exe: CXX_EXECUTABLE_LINKER__prostiBroevi_Debug CMakeFiles/pro
   TARGET_PDB = prostiBroevi.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target prostiBroeviDo1000
+
+
+#############################################
+# Order-only phony target for prostiBroeviDo1000
+
+build cmake_object_order_depends_target_prostiBroeviDo1000: phony || CMakeFiles/prostiBroeviDo1000.dir
+
+build CMakeFiles/prostiBroeviDo1000.dir/4-Functions/6-ProstiBroeviDo1000.cpp.obj: CXX_COMPILER__prostiBroeviDo1000_Debug C$:/Users/jakim/CLionProjects/SP2025/4-Functions/6-ProstiBroeviDo1000.cpp || cmake_object_order_depends_target_prostiBroeviDo1000
+  DEP_FILE = CMakeFiles\prostiBroeviDo1000.dir\4-Functions\6-ProstiBroeviDo1000.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\prostiBroeviDo1000.dir
+  OBJECT_FILE_DIR = CMakeFiles\prostiBroeviDo1000.dir\4-Functions
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target prostiBroeviDo1000
+
+
+#############################################
+# Link the executable prostiBroeviDo1000.exe
+
+build prostiBroeviDo1000.exe: CXX_EXECUTABLE_LINKER__prostiBroeviDo1000_Debug CMakeFiles/prostiBroeviDo1000.dir/4-Functions/6-ProstiBroeviDo1000.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\prostiBroeviDo1000.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = prostiBroeviDo1000.exe
+  TARGET_IMPLIB = libprostiBroeviDo1000.dll.a
+  TARGET_PDB = prostiBroeviDo1000.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target kalkulator
+
+
+#############################################
+# Order-only phony target for kalkulator
+
+build cmake_object_order_depends_target_kalkulator: phony || CMakeFiles/kalkulator.dir
+
+build CMakeFiles/kalkulator.dir/4-Functions/7-Kalkulator.cpp.obj: CXX_COMPILER__kalkulator_Debug C$:/Users/jakim/CLionProjects/SP2025/4-Functions/7-Kalkulator.cpp || cmake_object_order_depends_target_kalkulator
+  DEP_FILE = CMakeFiles\kalkulator.dir\4-Functions\7-Kalkulator.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\kalkulator.dir
+  OBJECT_FILE_DIR = CMakeFiles\kalkulator.dir\4-Functions
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target kalkulator
+
+
+#############################################
+# Link the executable kalkulator.exe
+
+build kalkulator.exe: CXX_EXECUTABLE_LINKER__kalkulator_Debug CMakeFiles/kalkulator.dir/4-Functions/7-Kalkulator.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\kalkulator.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = kalkulator.exe
+  TARGET_IMPLIB = libkalkulator.dll.a
+  TARGET_PDB = kalkulator.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target daliNiziteSeIsti
 
 
@@ -1530,6 +1695,8 @@ build broeviVoInterval: phony broeviVoInterval.exe
 
 build brojTelefon: phony brojTelefon.exe
 
+build cetiriCifrenBrojCifri: phony cetiriCifrenBrojCifri.exe
+
 build cetiriCifrenKolega: phony cetiriCifrenKolega.exe
 
 build cifriVoVtorBroj: phony cifriVoVtorBroj.exe
@@ -1545,6 +1712,8 @@ build fiskalnaSmetka1: phony fiskalnaSmetka1.exe
 build fiskalnaSmetka2: phony fiskalnaSmetka2.exe
 
 build izbrishiDuplikati: phony izbrishiDuplikati.exe
+
+build kalkulator: phony kalkulator.exe
 
 build kreirajKorisnickaSmetka: phony kreirajKorisnickaSmetka.exe
 
@@ -1563,6 +1732,10 @@ build poeniOcenka: phony poeniOcenka.exe
 build potrosenaStruja: phony potrosenaStruja.exe
 
 build prostiBroevi: phony prostiBroevi.exe
+
+build prostiBroeviDo1000: phony prostiBroeviDo1000.exe
+
+build prviStobroevi: phony prviStobroevi.exe
 
 build quadraticEquation: phony quadraticEquation.exe
 
@@ -1594,6 +1767,8 @@ build starsSquareAndDiagonal: phony starsSquareAndDiagonal.exe
 
 build strogoRasteckaIliOpagjacka: phony strogoRasteckaIliOpagjacka.exe
 
+build sumaCifri: phony sumaCifri.exe
+
 build tikTakBroj: phony tikTakBroj.exe
 
 build validenDatum: phony validenDatum.exe
@@ -1614,7 +1789,7 @@ build zbirSlikaBroj: phony zbirSlikaBroj.exe
 #############################################
 # Folder: C:/Users/jakim/CLionProjects/SP2025/cmake-build-debug
 
-build all: phony SP2025.exe SedumCifrenBroj.exe quadraticEquation.exe cetiriCifrenKolega.exe kreirajKorisnickaSmetka.exe najdolgaOtsecka.exe palindromPetCifrenBroj.exe poeniOcenka.exe validenDatum.exe validenDatum1.exe potrosenaStruja.exe specijalenBroj.exe brojTelefon.exe tikTakBroj.exe starsInfinitySign.exe broeviVoInterval.exe zbirCifri.exe deliviBroeviInterval.exe fiskalnaSmetka1.exe fiskalnaSmetka2.exe najgolemaRazlika.exe starsSquareAndDiagonal.exe starsHourGlass.exe starsFullLeftBottomTriangle.exe starsHollowLeftBottomTriangle.exe starsFullTopLeftTriangle.exe starsHollowTopLeftTriangle.exe starsFullBottomRightTriangle.exe starsHollowBottomRightTriangle.exe zbirSlikaBroj.exe maxBroj.exe apsolutnaVrednost.exe krugDLP.exe cifriVoVtorBroj.exe bingo.exe prostiBroevi.exe daliNiziteSeIsti.exe zbirParniNeparniElementi.exe skalarenProizvod.exe strogoRasteckaIliOpagjacka.exe rotiranjeEdenDesno.exe rotiranjeMDesno.exe izbrishiDuplikati.exe ednocifreniBroevi.exe
+build all: phony SP2025.exe SedumCifrenBroj.exe quadraticEquation.exe cetiriCifrenKolega.exe kreirajKorisnickaSmetka.exe najdolgaOtsecka.exe palindromPetCifrenBroj.exe poeniOcenka.exe validenDatum.exe validenDatum1.exe potrosenaStruja.exe specijalenBroj.exe brojTelefon.exe tikTakBroj.exe prviStobroevi.exe sumaCifri.exe cetiriCifrenBrojCifri.exe starsInfinitySign.exe broeviVoInterval.exe zbirCifri.exe deliviBroeviInterval.exe fiskalnaSmetka1.exe fiskalnaSmetka2.exe najgolemaRazlika.exe starsSquareAndDiagonal.exe starsHourGlass.exe starsFullLeftBottomTriangle.exe starsHollowLeftBottomTriangle.exe starsFullTopLeftTriangle.exe starsHollowTopLeftTriangle.exe starsFullBottomRightTriangle.exe starsHollowBottomRightTriangle.exe zbirSlikaBroj.exe maxBroj.exe apsolutnaVrednost.exe krugDLP.exe cifriVoVtorBroj.exe bingo.exe prostiBroevi.exe prostiBroeviDo1000.exe kalkulator.exe daliNiziteSeIsti.exe zbirParniNeparniElementi.exe skalarenProizvod.exe strogoRasteckaIliOpagjacka.exe rotiranjeEdenDesno.exe rotiranjeMDesno.exe izbrishiDuplikati.exe ednocifreniBroevi.exe
 
 # =============================================================================
 # Built-in targets
